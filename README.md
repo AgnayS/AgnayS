@@ -11,13 +11,13 @@
 
 - 👯 I’m looking to collaborate on **Cross platform foss bots and software.**
 
-- 👨‍💻 All of my other projects are available [here](https://github.com/AgnaySrivastava)
+- 👨‍💻 All of my older projects are available [here](https://github.com/AgnaySrivastava)
 
 - 💬I am proficient in **Java, Swing, Python, HTML, CSS and C++**
 
 - 📫 You can reach me at **agnaysrivastava@gmail.com**
 
-- 📄You can find my website at [agnaysrivastava.com](agnaysrivastava.com)
+- 📄You can find my website here (https://agnaysrivastava.com)
 
 - ⚡ Fun fact **I am top 15,000 in SEA at Valorant :)**
 
