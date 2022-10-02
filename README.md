@@ -13,7 +13,7 @@
 
 - 👨‍💻 All of my projects are available at [github.com/agnaysrivastava, github.com/AgnayS](github.com/agnaysrivastava, github.com/AgnayS)
 
-- 💬I am proficient in **Java, Python, HTML and C++**
+- 💬I am proficient in **Java, Swing, Python, HTML, CSS and C++**
 
 - 📫 You can reach me at **agnaysrivastava@gmail.com**
 
