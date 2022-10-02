@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **C, CSS, JavaScript and Flutter**
 
-- 👯 I’m looking to collaborate on **An open source suite of everyday applications.**
+- 👯 I’m looking to collaborate on **Cross platform foss bots and software.**
 
 - 👨‍💻 All of my projects are available at [github.com/agnaysrivastava, github.com/AgnayS](github.com/agnaysrivastava, github.com/AgnayS)
 
