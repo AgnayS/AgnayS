@@ -17,7 +17,7 @@
 
 - 📫 You can reach me at **agnaysrivastava@gmail.com**
 
-- 📄You can find my website here (https://agnaysrivastava.com)
+- 📄You can find my website [here] (https://agnaysrivastava.com)
 
 - ⚡ Fun fact **I am top 15,000 in SEA at Valorant :)**
 
