@@ -11,7 +11,7 @@
 
 - 👯 I’m looking to collaborate on **Cross platform foss bots and software.**
 
-- 👨‍💻 All of my other projects are available [Here](https://github.com/AgnaySrivastava)
+- 👨‍💻 All of my other projects are available [here](https://github.com/AgnaySrivastava)
 
 - 💬I am proficient in **Java, Swing, Python, HTML, CSS and C++**
 
