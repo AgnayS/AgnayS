@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Agnay Srivastava</h1>
-<h3 align="center">I am 18 years old, a freshman at Rose-Hulman Institute of Technology, and an upcoming software developer.</h3>
+<h3 align="center">I am 18 years old, a sophomore at Rose-Hulman Institute of Technology, and an upcoming software developer.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=agnays&label=Profile%20views&color=0e75b6&style=flat" alt="agnays" /> </p>
 
