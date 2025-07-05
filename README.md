@@ -23,8 +23,6 @@
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/AgnayS/AgnayS/output/snake.svg?v=2">
 </picture>
 
-*🎯 Each green square represents commits → The snake grows as it eats my contributions → Epic coding journey visualized!*
-
 </div>
 
 ---
@@ -130,7 +128,7 @@
 
 ### 💡 **Problem → Solution → Impact**
 
-**🤖 AutoJobs:** 500+ users, 25K+ hours saved, 90% success rate  
+**🤖 AutoJobs:** Easily handles 1000+ concurrent users, 90% success rate  
 **🍽️ RoseDine:** 250+ weekly users, 92% satisfaction, AI meal planning  
 **🏢 Viavi:** $500K hardware savings, 65K concurrent simulations
 
@@ -166,7 +164,7 @@
 **Experience:** Full-Stack (4+ yrs) • Cloud/DevOps (3+ yrs) • AI/ML (2+ yrs) • Leadership (Multiple teams)
 
 ### 🏆 **Highlights**
-**🤖 AutoJobs:** 500+ users, 90% automation success  
+**🤖 AutoJobs:** So many users! 90% automation success  
 **🍽️ RoseDine:** 250+ weekly users, AI meal planning  
 **📚 Academic:** 3.8/4.0 GPA, Rose-Hulman Merit Scholar
 
@@ -190,14 +188,14 @@
 **Potential:** High-impact technical co-founder material
 
 ### 📊 **Market & Tech**
-**Market:** $200B+ global TAM • 500+ users, organic growth • 90% vs 60% industry success rate  
+**Market:** Organic growth • 90% vs 60% industry success rate  
 **Tech Assets:** `Proprietary AI` `Anti-Detection` `Scalable Architecture` `5K+ Training Data`
 
 ### 🎯 **Founder Assessment**
 
 | Criteria | Rating | Evidence |
 |----------|--------|----------|
-| **Technical Execution** | ⭐⭐⭐⭐⭐ | Multiple production apps serving 1M+ users |
+| **Technical Execution** | ⭐⭐⭐⭐⭐ | Multiple production apps serving 1000s of users |
 | **Business Acumen** | ⭐⭐⭐⭐ | Direct user research, metrics-driven |
 | **Learning Velocity** | ⭐⭐⭐⭐⭐ | Rapid tech adoption, 3.8 GPA |
 | **Leadership** | ⭐⭐⭐⭐ | Led teams, mentored developers |
@@ -218,10 +216,10 @@
 
 ![Achievements](https://readme-typing-svg.herokuapp.com/?font=Righteous&size=30&center=true&vCenter=true&width=600&height=80&duration=3000&lines=🏆+LEGENDARY+ACHIEVEMENTS;🎮+Epic+Quest+Unlocks;⭐+Rare+Developer+Status)
 
-🎯 **"The Time Bender"** - 25,000+ hours saved ⭐⭐⭐⭐⭐  
+🎯 **"The Time Bender"** - Way too many hours saved! ⭐⭐⭐⭐⭐  
 ⚡ **"The Performance Oracle"** - 99.9% uptime ⭐⭐⭐⭐  
 🤖 **"The Automation Master"** - 90% AI success ⭐⭐⭐⭐  
-🏗️ **"The Architecture Sage"** - 1M+ users served ⭐⭐⭐⭐  
+🏗️ **"The Architecture Sage"** - 1000+ users served ⭐⭐⭐⭐  
 📚 **"The Scholar Warrior"** - 3.8 GPA + Production ⭐⭐⭐  
 ☕ **"The Caffeine Alchemist"** - 500+ cups → code ⭐⭐
 
