@@ -64,21 +64,45 @@
 
 ### ⚡ **AutoJobs Architecture** {#autojobs-architecture}
 
-![Architecture](https://img.shields.io/badge/🌐_Hetzner_VPS-Dashboard_+_API-blue?style=for-the-badge) ![Queue](https://img.shields.io/badge/🚀_Redis-BullMQ_Queue-red?style=for-the-badge) ![Workers](https://img.shields.io/badge/🖥️_TrueNAS-LXC_Workers-green?style=for-the-badge) ![Database](https://img.shields.io/badge/🗄️_PostgreSQL-Database-purple?style=for-the-badge)
+```ascii
+    ┌─────────────────────────────────────────────┐
+    │           🌐 Hetzner VPS Cloud              │
+    │  ┌─────────────┐    ┌─────────────────────┐ │
+    │  │ 📱 Dashboard │    │    🔧 Backend API   │ │
+    │  │   React     │    │    Node.js/TS      │ │
+    │  └─────────────┘    └─────────────────────┘ │
+    │            │               │                │
+    │  ┌─────────────────────────────────────────┐ │
+    │  │     🚀 BullMQ + Redis Queue            │ │
+    │  └─────────────────────────────────────────┘ │
+    └─────────────────┬───────────────────────────┘
+                      │ ⚡ Jobs via Tailscale VPN
+    ┌─────────────────▼───────────────────────────┐
+    │       🖥️  TrueNAS Scale (i7-13700k)        │
+    │                 32GB RAM                    │
+    │  ┌─────────────────────────────────────────┐ │
+    │  │      🔥 Worker VMs (LXC Containers)    │ │
+    │  │  ┌─────────┐  ┌─────────┐  ┌─────────┐ │ │
+    │  │  │🎭 Play- │  │  🤖 AI  │  │ 🌐 Browser│ │ │
+    │  │  │ wright  │  │ Service │  │  Pools   │ │ │
+    │  │  │Workers  │  │ OpenAI  │  │(15+ inst)│ │ │
+    │  │  └─────────┘  └─────────┘  └─────────┘ │ │
+    │  └─────────────────────────────────────────┘ │
+    └─────────────────┬───────────────────────────┘
+                      │ 💾 Results via PostgreSQL Gateway
+    ┌─────────────────▼───────────────────────────┐
+    │         🗄️  PostgreSQL Database            │
+    │       (Multi-tenant, Optimized)            │
+    └─────────────────────────────────────────────┘
 
-```
-🌐 Hetzner VPS → 🚀 BullMQ/Redis → 🔒 Tailscale → 🖥️ TrueNAS (i7-13700k)
-                                                  ↓
-                🎭 Playwright + 🤖 AI + 🌐 Browser Pools
-                                                  ↓
-                              🗄️ PostgreSQL Gateway
+🎯 Flow: User submits job → Queue processes → Workers execute → AI fills forms → Results stored
 ```
 
 ### 🎯 **Live Stats**
-![Apps](https://img.shields.io/badge/🚀_Applications-5,000+/month-success?style=for-the-badge) ![Success](https://img.shields.io/badge/⚡_Success_Rate-90%25-brightgreen?style=for-the-badge) ![Uptime](https://img.shields.io/badge/🔄_Uptime-99.9%25-blue?style=for-the-badge)
+![Apps](https://img.shields.io/badge/🚀_Applications-5,000+/month-success) ![Success](https://img.shields.io/badge/⚡_Success_Rate-90%25-brightgreen) ![Uptime](https://img.shields.io/badge/🔄_Uptime-99.9%25-blue) ![Workers](https://img.shields.io/badge/🖥️_Workers-15+_concurrent-orange)
 
 ### 🛠️ **Tech Stack**
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white)
 
 [![Contact](https://img.shields.io/badge/🎯-Technical_Deep_Dive-2E86AB?style=for-the-badge)](mailto:srivasa@rose-hulman.edu) [![LinkedIn](https://img.shields.io/badge/💼-Connect-0077B5?style=for-the-badge)](https://www.linkedin.com/in/agnays) [![Demo](https://img.shields.io/badge/🚀-Live_Demo-00D4AA?style=for-the-badge)](https://autojobs.me)
 
@@ -94,11 +118,13 @@
 
 ### 💡 **Problem → Solution → Impact**
 
-![AutoJobs](https://img.shields.io/badge/🤖_AutoJobs-500+_users,_25K+_hrs_saved-00D4AA?style=for-the-badge) ![RoseDine](https://img.shields.io/badge/🍽️_RoseDine-250+_users,_92%25_satisfaction-FF6B6B?style=for-the-badge) ![Viavi](https://img.shields.io/badge/🏢_Viavi-$500K_saved-gold?style=for-the-badge)
+**🤖 AutoJobs:** 500+ users, 25K+ hours saved, 90% success rate  
+**🍽️ RoseDine:** 250+ weekly users, 92% satisfaction, AI meal planning  
+**🏢 Viavi:** $500K hardware savings, 65K concurrent simulations
 
 
-### 🎯 **Philosophy** 
-![Problem](https://img.shields.io/badge/1-Solve_Real_Problems-blue?style=flat-square) ![Speed](https://img.shields.io/badge/2-Ship_Fast-orange?style=flat-square) ![AI](https://img.shields.io/badge/3-AI_First-purple?style=flat-square) ![Scale](https://img.shields.io/badge/4-Scale_Day_One-green?style=flat-square)
+### 🎯 **Philosophy**
+`1. Solve Real Problems` `2. Ship Fast, Learn Faster` `3. AI-First Approach` `4. Scale from Day One`
 
 [![Chat](https://img.shields.io/badge/🎯-Product_Chat-FF6B35?style=for-the-badge)](mailto:srivasa@rose-hulman.edu) [![LinkedIn](https://img.shields.io/badge/💼-Connect-0077B5?style=for-the-badge)](https://www.linkedin.com/in/agnays) [![AutoJobs](https://img.shields.io/badge/🤖-AutoJobs-00D4AA?style=for-the-badge)](https://autojobs.me)
 
@@ -118,15 +144,19 @@
 
 ### 💼 **Experience**
 
-![Viavi](https://img.shields.io/badge/🏢_Viavi-$500K_saved-gold?style=flat-square) ![Nerve](https://img.shields.io/badge/📊_Nerve-C++_systems-red?style=flat-square) ![GrapheneAI](https://img.shields.io/badge/🤖_GrapheneAI-LLM_optimization-purple?style=flat-square) ![Paytm](https://img.shields.io/badge/💳_Paytm-1M+_users-blue?style=flat-square)
+**🏢 Viavi Solutions** `2025` - $500K saved, 65K simulations  
+**📊 Nerve Solutions** `2024` - C++ systems, $10K+ arbitrage daily  
+**🤖 GrapheneAI** `2024` - 20% LLM optimization, RAG systems  
+**💳 Paytm** `2023` - 1M+ users, performance optimization
 
 ### 🎯 **Skills**
-![JavaScript](https://img.shields.io/badge/JavaScript/TS-95%25-yellow?style=for-the-badge&logo=javascript) ![Python](https://img.shields.io/badge/Python-90%25-blue?style=for-the-badge&logo=python) ![Java](https://img.shields.io/badge/Java-85%25-orange?style=for-the-badge&logo=java) ![C++](https://img.shields.io/badge/C++-80%25-red?style=for-the-badge&logo=c%2B%2B)
-
-![Full-Stack](https://img.shields.io/badge/Full--Stack-4+_years-success?style=for-the-badge) ![Cloud](https://img.shields.io/badge/Cloud/DevOps-3+_years-blue?style=for-the-badge) ![AI/ML](https://img.shields.io/badge/AI/ML-2+_years-purple?style=for-the-badge)
+**Languages:** JavaScript/TS (95%) • Python (90%) • Java (85%) • C++ (80%)  
+**Experience:** Full-Stack (4+ yrs) • Cloud/DevOps (3+ yrs) • AI/ML (2+ yrs) • Leadership (Multiple teams)
 
 ### 🏆 **Highlights**
-![AutoJobs](https://img.shields.io/badge/AutoJobs-500+_users-success?style=for-the-badge) ![RoseDine](https://img.shields.io/badge/RoseDine-250+_users-orange?style=for-the-badge) ![GPA](https://img.shields.io/badge/GPA-3.8/4.0-blue?style=for-the-badge)
+**🤖 AutoJobs:** 500+ users, 90% automation success  
+**🍽️ RoseDine:** 250+ weekly users, AI meal planning  
+**📚 Academic:** 3.8/4.0 GPA, Rose-Hulman Merit Scholar
 
 [![Interview](https://img.shields.io/badge/🎯-Interview_Request-4ECDC4?style=for-the-badge)](mailto:srivasa@rose-hulman.edu) [![LinkedIn](https://img.shields.io/badge/💼-Connect-0077B5?style=for-the-badge)](https://www.linkedin.com/in/agnays) [![Portfolio](https://img.shields.io/badge/🌐-Portfolio-FF7139?style=for-the-badge)](https://agnays.com)
 
@@ -148,9 +178,8 @@
 **Potential:** High-impact technical co-founder material
 
 ### 📊 **Market & Tech**
-![Market](https://img.shields.io/badge/Market-$200B+_TAM-gold?style=for-the-badge) ![Traction](https://img.shields.io/badge/Traction-500+_users-success?style=for-the-badge) ![Edge](https://img.shields.io/badge/Success_Rate-90%25_vs_60%25-brightgreen?style=for-the-badge)
-
-![AI](https://img.shields.io/badge/🔥_AI-Proprietary-red?style=flat-square) ![Detection](https://img.shields.io/badge/⚡_Anti--Detection-Advanced-orange?style=flat-square) ![Architecture](https://img.shields.io/badge/🏗️_Architecture-Scalable-blue?style=flat-square) ![Data](https://img.shields.io/badge/📈_Training_Data-5K+_apps-green?style=flat-square)
+**Market:** $200B+ global TAM • 500+ users, organic growth • 90% vs 60% industry success rate  
+**Tech Assets:** `Proprietary AI` `Anti-Detection` `Scalable Architecture` `5K+ Training Data`
 
 ### 🎯 **Founder Assessment**
 
@@ -162,7 +191,10 @@
 | **Leadership** | ⭐⭐⭐⭐ | Led teams, mentored developers |
 
 ### 💪 **Value Props**
-![Builder](https://img.shields.io/badge/Proven_Builder-4+_systems-success?style=for-the-badge) ![AI_Native](https://img.shields.io/badge/AI_Native-LLM_Expert-purple?style=for-the-badge) ![Full_Stack](https://img.shields.io/badge/Full_Stack-End_to_End-blue?style=for-the-badge)
+✅ **Proven Builder** - 4+ production systems with real impact  
+✅ **AI-Native** - Deep automation & LLM expertise  
+✅ **Full-Stack** - Execute across entire technology stack  
+✅ **Results-Oriented** - Consistent measurable outcomes
 
 [![Partnership](https://img.shields.io/badge/🎯-Partnership_Discussion-9B59B6?style=for-the-badge)](mailto:srivasa@rose-hulman.edu) [![LinkedIn](https://img.shields.io/badge/💼-Connect-0077B5?style=for-the-badge)](https://www.linkedin.com/in/agnays) [![Platform](https://img.shields.io/badge/🚀-Live_Platform-00D4AA?style=for-the-badge)](https://autojobs.me)
 
@@ -174,9 +206,12 @@
 
 ![Achievements](https://readme-typing-svg.herokuapp.com/?font=Righteous&size=30&center=true&vCenter=true&width=600&height=80&duration=3000&lines=🏆+LEGENDARY+ACHIEVEMENTS;🎮+Epic+Quest+Unlocks;⭐+Rare+Developer+Status)
 
-![Time Bender](https://img.shields.io/badge/🎯_Time_Bender-25K+_hours_saved-gold?style=for-the-badge) ![Performance](https://img.shields.io/badge/⚡_Performance_Oracle-99.9%25_uptime-brightgreen?style=for-the-badge) ![Automation](https://img.shields.io/badge/🤖_Automation_Master-90%25_success-purple?style=for-the-badge)
-
-![Architecture](https://img.shields.io/badge/🏗️_Architecture_Sage-1M+_users-blue?style=for-the-badge) ![Scholar](https://img.shields.io/badge/📚_Scholar_Warrior-3.8_GPA-orange?style=for-the-badge) ![Caffeine](https://img.shields.io/badge/☕_Caffeine_Alchemist-500+_cups-brown?style=for-the-badge)
+🎯 **"The Time Bender"** - 25,000+ hours saved ⭐⭐⭐⭐⭐  
+⚡ **"The Performance Oracle"** - 99.9% uptime ⭐⭐⭐⭐  
+🤖 **"The Automation Master"** - 90% AI success ⭐⭐⭐⭐  
+🏗️ **"The Architecture Sage"** - 1M+ users served ⭐⭐⭐⭐  
+📚 **"The Scholar Warrior"** - 3.8 GPA + Production ⭐⭐⭐  
+☕ **"The Caffeine Alchemist"** - 500+ cups → code ⭐⭐
 
 </div>
 
