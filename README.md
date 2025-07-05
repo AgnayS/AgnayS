@@ -11,11 +11,9 @@
 
 ---
 
-## 🐍 THE CODING JOURNEY SNAKE
+## 🐍 Watch the snake devour my coding milestones through the years!
 
 <div align="center">
-
-**Watch the snake devour my coding milestones through the years!**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AgnayS/AgnayS/output/snake-dark.svg?v=2">
@@ -253,9 +251,9 @@
 
 <div align="center">
 
-### 🐧 For those who get it 🐧
+<img src="memes/arch-bathroom.jpeg" alt="Arch Bathroom" height="400">
 
-<img src="memes/ArchFox.png" alt="Arch Fox" height="200"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="memes/arch-bathroom.jpeg" alt="Arch Bathroom" height="200">
+<img src="memes/ArchFox.png" alt="Arch Fox" height="200">  
 
 </div>
 
