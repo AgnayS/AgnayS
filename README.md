@@ -1,12 +1,6 @@
-# 🏰 Welcome to the Kingdom of Code
+# 🏰 Welcome to My Kingdom of Code! 🏰
 
 <div align="center">
-
-```ascii
-╔══════════════════════════════════════════════════════════════╗
-║  🏰✨ THE LEGENDARY KINGDOM OF AGNAY AWAITS YOUR CHOICE ✨🏰  ║
-╚══════════════════════════════════════════════════════════════╝
-```
 
 <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=700&height=100&duration=4000&lines=⚔️+Choose+Your+Class,+Brave+Adventurer!;🎯+Explore+My+Coding+Quest;🚀+Discover+Epic+Projects+%26+Adventures;💎+Unlock+Legendary+Achievements!" />
 
