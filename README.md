@@ -17,6 +17,24 @@
 
 ---
 
+## 🐍 THE CODING JOURNEY SNAKE
+
+<div align="center">
+
+**Watch the snake devour my coding milestones through the years!**
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AgnayS/AgnayS/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AgnayS/AgnayS/output/snake-light.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/AgnayS/AgnayS/output/snake.svg">
+</picture>
+
+*🎯 Each green square represents commits → The snake grows as it eats my contributions → Epic coding journey visualized!*
+
+</div>
+
+---
+
 ## 🎭 CHARACTER SELECTION SCREEN
 
 <table align="center">
