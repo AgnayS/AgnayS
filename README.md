@@ -249,6 +249,18 @@
 [![AutoJobs](https://img.shields.io/badge/🤖-AutoJobs-00D4AA?style=for-the-badge&logo=robot&logoColor=white)](https://autojobs.me)
 [![RoseDine](https://img.shields.io/badge/🍽️-RoseDine-FF6B6B?style=for-the-badge&logo=food&logoColor=white)](https://rosedine.com)
 
+---
+
+<div align="center">
+
+### 🐧 For those who get it 🐧
+
+<img src="memes/ArchFox.png" alt="Arch Fox" height="200"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="memes/arch-bathroom.jpeg" alt="Arch Bathroom" height="200">
+
+</div>
+
+---
+
 **🏰 Built with ❤️ and ☕ in the Kingdom of Code**
 
 </div>
