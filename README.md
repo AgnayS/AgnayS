@@ -1,3 +1,5 @@
+<img src="images/profile.png" alt="Tech Stack">
+
 # 🏰 Welcome to My Kingdom of Code! 🏰
 
 <div align="center">
