@@ -1,4 +1,4 @@
-<img src="images/profile.png" alt="Tech Stack">
+<img src="images/banner.png" alt="Tech Stack">
 
 # 🏰 Welcome to My Kingdom of Code! 🏰
 
